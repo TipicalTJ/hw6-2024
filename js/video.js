@@ -19,7 +19,7 @@ document.querySelector("#play").addEventListener("click", function() {
 
 	volumeText = document.querySelector("#slider").value;
 	let volumeContent = document.getElementById("volume");
-	volumeContent.innerHTML = volumeText;
+	volumeContent.innerHTML = volumeText + "%";
 });
 
 // Creating the pause button
